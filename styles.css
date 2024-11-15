@@ -2,23 +2,32 @@
     font-family: 'Roboto';
 }
 
-header{
+html{
     background-color: #1F2937;
+    overflow-x: hidden;
+}
+
+body{
+    margin:auto;
+}
+
+/* Styling for header */
+header{
     font-size: 24px;
-    border: 5px pink solid;
+    /* border: 5px pink solid; */
     padding: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    align-content: space-between;
+    align-content: center;
 }
 
 #linkContainer{
     display: flex;
     flex-direction: row;
-    border: 5px orange solid;
+    /* border: 5px orange solid; */
     gap: 20px;
 }
 
@@ -26,42 +35,200 @@ header{
     display: block;
     font-size: 18px;
     color: #e5e7eb;
-    border: 5px yellow solid;
+    /* border: 5px yellow solid; */
 }
 
 #logo{
     display: block;
     font-size: 24px;
     color: #f9faf8;
-    border: 5px green solid;
+    /* border: 5px green solid; */
     margin-right: auto;
 }
 
-body{
-    background-color: #1F2937;
-}
-
-
-#main{
+/* Styling for dark part */
+.main{
     padding: 20px;
     display: flex;
-    border: 5px palegreen solid;
+    /* border: 5px palegreen solid; */
     font-size: 18px;
     color: #e5e7eb;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 #hero
 {
+    display: block;
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    border: 5px rgb(80, 150, 241) solid;
+    /* border: 5px rgb(80, 150, 241) solid; */
 }
 
 #subtext{
     display: block;
-    border: 5px saddlebrown solid;
+    /* border: 5px saddlebrown solid; */
+    padding: 10px;
+}
+
+.main-text{
+    /* border: 5px magenta solid; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+#img-1{
+    width: 25%;
+    display: inline;
+}
+
+#button-1{
+    width: 100px;
+    height: auto;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px;
+    border-radius: 8px;
+    border: 0;
+}
+
+/* Styling for info part */
+.information{
+    background-color: #e5e7eb;
+    /* border: 5px red solid; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+#info-header{
+    size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: center;
+    /* border: blue 5px solid; */
+}
+
+.info-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: cyan solid 5px; */
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-item{
+    border: #3882f6 solid 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.info-sub{
+    /* border: black solid 5px; */
+    width: 150px;
+}
+
+.info-box{
+    /* border: yellow solid 5px; */
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+/* Quote section */
+.quote-section{
+    padding: 50px;
+    background-color: rgb(209, 209, 209);
+    border: 0;
+}
+
+#quote{
+    
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;    
+    /* border: red solid 5px; */
+}
+
+.quote-container{
+    display: flex;
+    /* border: teal solid 5px; */
+    flex-direction: column;
+}
+
+.quote-person{
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+    margin-right: 50px;
+    /* border: pink solid 5px; */
+}
+
+#cta{
+    background-color: #e5e7eb;
+    /* border: red solid 5px; */
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container{
+    background-color: #3882f6;
+    border: 0;
+    width: 75%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.cta-text{
+    /* border: pink solid 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-cta{
+    font-size: 24px;
+    color: #f9faf8;
+    /* border: black 5px solid; */
+}
+
+.sub-cta{
+    font-size: 18px;
+    color: #e5e7eb;
+    /* border: red 5px solid; */
+}
+
+.button-cta{    
+    color: #f9faf8;
+    width: 100px;
+    height: 50px;
+    background-color: #3882f6;
+    padding: 5px;
+    border-radius: 8px;
+    border: #f9faf8 solid 1px;
+}
+
+footer{
+    display: flex;
+    color: #f9faf8;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 500;
 }
