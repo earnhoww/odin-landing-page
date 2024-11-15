@@ -1,2 +1,2 @@
 # odin-landing-page
-A simple landing page the combines CSS and HTML. Why was CSS so painful. It looks so scuffed.
+A simple landing page the combines CSS and HTML. Why was CSS so painful. It looks so scuffed. Also don't use firefox haha
